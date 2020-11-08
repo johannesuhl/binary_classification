@@ -3,9 +3,13 @@
 There are many applications which require the comparison and evaluation of large numbers of binary classification results, among each other and/or with respect to a reference classification. Such applications include e.g. the results of systematic hyperparameter tuning of machine-learning based binary classifiers, or different classifications of built-up versus not built-up areas derived from satellite imagery or other geospatial data sources.
 
 ## multi_classifier_binary_comparison.py
-The script multi_classifier_binary_comparison.py provides a visual method to compare the binary classification outcomes between each other and with respect to the reference labels, by means of a heatmap indicating the positive and negative reference labels (top row), and the corresponding labels of an arbitrary number of classifiers, sorted descendingly by a user-defined accuracy measure (e.g., the F-measure) from top to bottom. This allows to visually identify false positive and false negative instances and the commonalities and differences between different classifiers.
+The script multi_classifier_binary_comparison.py provides a visual method to compare the binary classification outcomes between each other and with respect to the reference labels, by means of a heatmap indicating the positive (green) and negative (blue) reference labels (top row), and the corresponding labels of an arbitrary number of classifiers, sorted descendingly by a user-defined accuracy measure (e.g., the F-measure) from top to bottom. This allows to visually identify false positive and false negative instances and the commonalities and differences between different classifiers.
 
 The script simulates multiple binary classification outcomes using a multilayer perceptron.
+
+Classifying own simulated data:
+
+<img width="750" alt="Classifying own simulated data" src="https://github.com/johannesuhl/binary_classification/blob/main/multiple_binary_classifier_comparisonOwn.jpg">
 
 Classifying the Connectionist Bench (Sonar, Mines vs. Rocks) Data Set:
 
@@ -14,10 +18,6 @@ Classifying the Connectionist Bench (Sonar, Mines vs. Rocks) Data Set:
 Classifying the  Pima Indians Diabetes Database:
 
 <img width="750" alt="Classifying the  Pima Indians Diabetes Database" src="https://github.com/johannesuhl/binary_classification/blob/main/multiple_binary_classifier_comparisonDiabetes.jpg">
-
-Classifying own simulated data:
-
-<img width="750" alt="Classifying own simulated data" src="https://github.com/johannesuhl/binary_classification/blob/main/multiple_binary_classifier_comparisonOwn.jpg">
 
 ## Data references:
 ## Connectionist Bench (Sonar, Mines vs. Rocks) Data Set
